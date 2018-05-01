@@ -1,0 +1,23 @@
+a{ padding-right:20px;  
+   
+ }
+a:link    {color:blue; background-color:transparent; text-decoration:none}
+a:visited {color:blue; background-color:transparent; text-decoration:none}
+a:hover   {color:black; background-color:transparent; text-decoration:underline}
+a:active  {color:blue; background-color:transparent; text-decoration:underline}
+
+
+
+h1
+{
+font-family: "Arial",  serif;
+
+    padding-left: 200px;
+}
+
+h2
+{
+font-family: "Arial",  serif;
+
+    padding-left: 400px;
+}

@@ -1,0 +1,46 @@
+h1
+{
+font-family: "Arial",  serif;
+
+    padding-left: 220px;
+    padding-down: 0px;
+}
+a:link    {color:blue; background-color:transparent; text-decoration:none}
+a:visited {color:blue; background-color:transparent; text-decoration:none}
+a:hover   {color:black; background-color:transparent; text-decoration:underline}
+a:active  {color:blue; background-color:transparent; text-decoration:underline}
+a{ padding-right: 20px;   
+ }
+
+
+
+p {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 200px;
+}
+p1
+{
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 220px;
+}
+p2
+{
+  padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 220px;
+
+}
+p3
+{
+  padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 220px;
+
+}
+

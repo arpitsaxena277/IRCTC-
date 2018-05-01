@@ -1,0 +1,70 @@
+a{ padding-right:20px;  
+   
+ }
+
+a:link    {color:blue; background-color:transparent; text-decoration:none}
+a:visited {color:blue; background-color:transparent; text-decoration:none}
+a:hover   {color:black; background-color:transparent; text-decoration:underline}
+a:active  {color:blue; background-color:transparent; text-decoration:underline}
+
+
+
+h1
+{
+font-family: "Arial",  serif;
+
+    padding-left: 200px;
+}
+
+h2
+{
+font-family: "Arial",  serif;
+
+    padding-left: 400px;}
+p1
+{
+
+padding-left: 400px;
+padding-right:100px;
+}
+p2
+{
+padding-right:132px;
+padding-left: 400px;
+}
+p3
+{
+padding-right:72px;
+padding-left: 400px;
+}
+p4
+{
+padding-right:42px;
+padding-left: 400px;
+}
+p5
+{
+padding-right:132px;
+padding-left: 400px;
+}
+p6
+{
+padding-right:138px;
+padding-left: 400px;
+}
+p7
+{
+padding-left: 400px;
+padding-right:40px;
+}
+p8
+{
+padding-left: 100px;
+padding-right:40px;
+}
+
+input[type=submit],input[type=reset] {
+    background-color:126CC0;
+    color: white;
+cursor: pointer;
+}

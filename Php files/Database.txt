@@ -1,0 +1,73 @@
+drop database project;
+create database project;
+use project;
+create table trains 
+( 
+TrainNo Varchar(4) Primary Key,
+TrainName Varchar(20) Not Null,
+Source Varchar(20) not null,
+Dest Varchar(20) not null,
+Noc integer(4),
+Nos integer(4));
+
+
+
+create table route
+( 
+TrainNo Varchar(4),
+Stat1 Varchar(20),
+Stat2 Varchar(20),
+Stat3 varchar(20),
+Stat4 varchar(20),
+Stat5 Varchar(20),
+Foreign Key (TrainNo) references trains(TrainNo)
+);
+
+
+create table status
+(
+PNR integer(10) not null,
+TrainNo varchar(4),
+Waiting integer(3),
+Foreign Key (TrainNo) references trains(TrainNo));
+
+create table fare
+(
+TrainNo varchar(4),
+base_fare decimal(6,2),
+res decimal(5,2) default 250.0,
+food decimal(5,2));
+
+
+
+create table records
+(
+userid varchar(10) ,
+name varchar(10) not null,
+password varchar(30) default "DefaultPassword",
+mobileNo varchar(10));
+
+create table history
+(
+userid varchar(10),
+trainno varchar(10) not null,
+dob date not null,
+doj date
+);
+
+
+create table tickets
+(
+userid varchar(10),
+trainNo varchar(4) primary key,
+pnr integer(10) not null,
+dob date,
+doj date,
+Foreign Key (TrainNo) references trains(TrainNo));
+
+create table tatkal
+(
+trainNo varchar(4) not null,
+charge decimal(6,2),
+Foreign Key (TrainNo) references trains(TrainNo));
+
